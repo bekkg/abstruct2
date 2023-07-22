@@ -8,10 +8,10 @@ public abstract  class Animal {
     }
     public   void metcat(){
 
-    };
+    }
     public    void metdog(){
 
-    };
+    }
 
 
 
