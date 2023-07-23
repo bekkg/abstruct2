@@ -1,12 +1,20 @@
 public class Main {
     public static void main(String[] args) {
 
-        A a= new A("100");
-        a.getBalance();
-        B b = new B("200");
-        b.getBalance();
-        C c =new C("300");
-        c.getBalance();
+        Circle circle = new Circle(3);
+
+        circle.calculatePerimeter();
+        System.out.println();
+
+        circle.calculateArea();
+        System.out.println();
+
+
+            Triangle triangle = new Triangle( 2,3,3);
+
+            triangle.calculateArea();
+            System.out.println();
+            triangle.calculatePerimeter();
 
 
 
